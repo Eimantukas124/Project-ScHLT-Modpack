@@ -1,0 +1,201 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "textures:title.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 275,
+            "height" : 75,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "textures:lite_version.png",
+            "posX" : -49,
+            "posY" : 90,
+            "width" : 110,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -200,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "textures:SinglePlayer.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -200,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "textures:MultiPlayer.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -200,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "textures:Mods.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 100,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "textures:Options.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 100,
+            "posY" : 100,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "textures:Quit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Language",
+            "posX" : 139,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "textures:Language.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+		  "Discord":
+        {
+            "text" : "Discord",
+            "posX" : 138,
+            "posY" : 200,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "textures:disk.jpg",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.io/ScHLT"
+            }
+			},
+			"paypal":
+        {
+            "text" : "PayPal",
+            "posX" : -120,
+            "posY" : 200,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "textures:disk.jpg",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.paypal.com/paypalme/EimanTukas420"
+            }
+        },
+		
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -15,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : " Project : ScH made by : Eimantukas!",
+            "hoverText" : "§nDo not steal the modpack!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+        
+        
+        
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 120,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : ""
+        },
+        
+        "panorama":
+        {
+            "images" : "textures:panorama.jpg",
+            "animate" : false,
+            "animationSpeed" : 10,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
